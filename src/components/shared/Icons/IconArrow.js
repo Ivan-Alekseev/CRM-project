@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as KeyboardArrowSvg } from "./../../../assets/iсons/keyboard_arrow_down.svg";
+import { ReactComponent as KeyboardArrowSvg } from "./../../../assets/icons/keyboard_arrow_down.svg";
 import { defaultTheme } from "../../../theme/default";
 
 export const IconKeyboardArrowDown = styled(KeyboardArrowSvg)`

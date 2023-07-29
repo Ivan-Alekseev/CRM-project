@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as LogoutSvg } from "./../../../assets/iсons/logout.svg";
+import { ReactComponent as LogoutSvg } from "./../../../assets/icons/logout.svg";
 import { defaultTheme } from "../../../theme/default";
 
 export const IconLogout = styled(LogoutSvg)`

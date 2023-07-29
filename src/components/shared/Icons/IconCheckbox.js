@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { ReactComponent as CheckboxSvg } from "./../../../assets/iсons/checkbox/checkbox.svg";
-import { ReactComponent as CheckboxCheckedSvg } from "./../../../assets/iсons/checkbox/checkbox-checked.svg";
+import { ReactComponent as CheckboxSvg } from "./../../../assets/icons/checkbox/checkbox.svg";
+import { ReactComponent as CheckboxCheckedSvg } from "./../../../assets/icons/checkbox/checkbox-checked.svg";
 import { defaultTheme } from "../../../theme/default";
 
 export const IconCheckbox = styled(CheckboxSvg)`

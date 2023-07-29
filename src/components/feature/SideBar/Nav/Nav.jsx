@@ -10,7 +10,7 @@ import { IconPerformers } from './../../../shared/Icons';
 import { IconBriefcase } from './../../../shared/Icons';
 import { IconKnowledgeLibrary } from './../../../shared/Icons';
 import { IconSettings } from './../../../shared/Icons';
-import { ReactComponent as IconExclamationPoint } from "./../../../../assets/iсons/button-elements/exclamation-point.svg";
+import { ReactComponent as IconExclamationPoint } from "./../../../../assets/icons/button-elements/exclamation-point.svg";
 
 import MenuItem from "./../MenuItem/MenuItem";
 import { ButtonSiderBar, StyledNav, StyledNavButtons } from "./styles";

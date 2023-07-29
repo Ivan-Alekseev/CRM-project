@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { defaultTheme } from "../../../theme/default";
-import { ReactComponent as WebSvg } from "./../../../assets/iсons/web.svg";
+import { ReactComponent as WebSvg } from "./../../../assets/icons/web.svg";
 
 
 export const IconWeb = styled(WebSvg)`

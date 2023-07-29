@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as СhevronCircleSvg } from "./../../../assets/iсons/chevron-down-circle.svg";
+import { ReactComponent as СhevronCircleSvg } from "./../../../assets/icons/chevron-down-circle.svg";
 import { defaultTheme } from "../../../theme/default";
 
 export const IconСhevronCircleDown = styled(СhevronCircleSvg)`

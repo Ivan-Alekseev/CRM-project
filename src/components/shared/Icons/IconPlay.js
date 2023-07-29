@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as PlaySvg } from "./../../../assets/iсons/music-player/button-play.svg";
+import { ReactComponent as PlaySvg } from "./../../../assets/icons/music-player/button-play.svg";
 
 export const IconPlay = styled(PlaySvg)`
     width:24px;
@@ -7,7 +7,7 @@ export const IconPlay = styled(PlaySvg)`
     color:red;
     & > path:hover {
         fill: #274BC8;
-        cursor: url("../../../assets/iсons/cursor-pointer.svg"), pointer;
+        cursor: url("../../../assets/icons/cursor-pointer.svg"), pointer;
     }
 `;
 

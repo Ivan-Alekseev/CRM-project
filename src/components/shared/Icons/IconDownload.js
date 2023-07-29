@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as DownloadSvg } from "./../../../assets/iсons/music-player/button-download.svg";
+import { ReactComponent as DownloadSvg } from "./../../../assets/icons/music-player/button-download.svg";
 
 
 export const IconDownload = styled(DownloadSvg)`

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as CursorPointerSvg } from "./../../../assets/iсons/cursor-pointer.svg";
+import { ReactComponent as CursorPointerSvg } from "./../../../assets/icons/cursor-pointer.svg";
 
 export const IconCursorPointer = styled(CursorPointerSvg)`
     width:24px;
