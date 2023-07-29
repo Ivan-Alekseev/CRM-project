@@ -1,4 +1,4 @@
-import { IconCalls, IconCheckbox, IconCheckboxChecked, IconClose, IconCross, IconWeb } from "../../shared/Icons";
+import { IconCalls, IconCheckbox, IconCheckboxChecked, IconClose, IconCross, IconInfoMedium, IconInfoSmall } from "../../shared/Icons";
 import { ListCalls } from "./../../feature/index";
 import { StyledCalls } from "./styles";
 
@@ -6,7 +6,8 @@ function Calls() {
   return (
       <StyledCalls>
         {/* <ListCalls /> */}
-        <IconWeb />
+        <IconInfoMedium />
+        <IconInfoSmall />
       </StyledCalls>
   );
 }

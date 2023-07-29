@@ -18,7 +18,8 @@ export { ReactComponent as IconExclamationPoint } from './../../../assets/icons/
 export { IconIncomingCall } from "./IconIncomingCall";
 export { IconOutgoingCall } from "./IconOutgoingCall";
 export {  ReactComponent as IconPhone } from "./../../../assets/icons/phone.svg";
-export {  ReactComponent as IconInfoSmall } from "./../../../assets/icons/info/info - small.svg";
+export { IconInfoSmall } from "./IconInfo";
+export { IconInfoMedium } from "./IconInfo";
 export { IconWeb } from "./IconWeb";
 export {  ReactComponent as IconLogin } from "./../../../assets/icons/login.svg";
 export {  ReactComponent as IconCalendar } from "./../../../assets/icons/icon-calendar.svg";
