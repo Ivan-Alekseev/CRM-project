@@ -1,0 +1,13 @@
+import styled from "styled-components";
+import { ReactComponent as CloseSvg } from "./../../../assets/iсons/music-player/button-close.svg";
+
+export const IconClose = styled(CloseSvg)`
+    width:24px;
+    width:24px;
+    path {
+        fill:currentColor;
+    }
+    path:hover {
+        fill:currentColor;
+    }
+`;
