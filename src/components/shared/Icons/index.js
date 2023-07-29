@@ -36,6 +36,6 @@ export { IconCursorPointer } from "./IconCursorPointer";
 //-------------------MusicPlayer----------------//
 
 export { IconHelp } from "./IconHelp";
-export { IconСhevronCircleUp } from "./IconСhevronCircle";
-export { IconСhevronCircleDown } from "./IconСhevronCircle";
+export { IconChevronCircleUp } from "./IconChevronCircle";
+export { IconChevronCircleDown } from "./IconChevronCircle";
 export { IconLogout } from "./IconLogout";

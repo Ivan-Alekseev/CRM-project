@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { ReactComponent as СhevronCircleSvg } from "./../../../assets/icons/chevron-down-circle.svg";
+import { ReactComponent as ChevronCircleSvg } from "./../../../assets/icons/chevron-down-circle.svg";
 import { defaultTheme } from "../../../theme/default";
 
-export const IconСhevronCircleDown = styled(СhevronCircleSvg)`
+export const IconChevronCircleDown = styled(ChevronCircleSvg)`
     width:24px;
     height:24px;
     cursor:pointer;
@@ -15,7 +15,7 @@ export const IconСhevronCircleDown = styled(СhevronCircleSvg)`
     }
 `;
 
-export const IconСhevronCircleUp = styled(СhevronCircleSvg)`
+export const IconChevronCircleUp = styled(ChevronCircleSvg)`
     width:24px;
     height:24px;
     cursor:pointer;
