@@ -11,7 +11,7 @@ export { ReactComponent as IconKnowledgeLibrary } from "./../../../assets/icons/
 export { ReactComponent as IconSettings } from "./../../../assets/icons/sidebar/settings.svg";
 
 export { ReactComponent as IconUnknownAvatar } from "./../../../assets/icons/avatars/unknown-avatar.svg";
-
+export { IconLogin } from "./IconLogin";
 export { ReactComponent as IconCross } from "./../../../assets/icons/button-elements/cross.svg";
 export { ReactComponent as IconExclamationPoint } from './../../../assets/icons/button-elements/exclamation-point.svg';
 
@@ -21,7 +21,7 @@ export {  ReactComponent as IconPhone } from "./../../../assets/icons/phone.svg"
 export { IconInfoSmall } from "./IconInfo";
 export { IconInfoMedium } from "./IconInfo";
 export { IconWeb } from "./IconWeb";
-export {  ReactComponent as IconLogin } from "./../../../assets/icons/login.svg";
+
 export {  ReactComponent as IconCalendar } from "./../../../assets/icons/icon-calendar.svg";
 export { IconSearch } from "./IconSearch";
 export { IconKeyboardArrowUp, IconKeyboardArrowDown  } from "./IconArrow";
