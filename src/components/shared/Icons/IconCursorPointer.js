@@ -3,6 +3,6 @@ import { ReactComponent as CursorPointerSvg } from "./../../../assets/iсons/cur
 
 export const IconCursorPointer = styled(CursorPointerSvg)`
     width:24px;
-    width:24px;
+    height:24px;
 `;
 

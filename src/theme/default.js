@@ -19,9 +19,10 @@ export const defaultTheme = {
 
     colorCheckboxOffDefault:colors.default,
     colorCheckboxOffHover:colors.hover,
+    colorCheckboxOffActive:colors.active,
 
-    colorCheckboxOnDefault:"#002CFB",
-    colorCheckboxOnHover:"#0024CB",
+    colorCheckboxOnDefault:colors.hover,
+    colorCheckboxOnHover:colors.active,
 
 
     colorTextDefaul:"#5E7793",

@@ -26,8 +26,8 @@ export {  ReactComponent as IconCalendar } from "./../../../assets/iсons/icon-c
 export { IconSearch } from "./IconSearch";
 export { IconKeyboardArrowUp, IconKeyboardArrowDown  } from "./IconArrow";
 
-export { IconCheckbox } from "./Checkbox";
-export { IconCheckboxChecked } from "./Checkbox";
+export { IconCheckbox } from "./IconCheckbox";
+export { IconCheckboxChecked } from "./IconCheckbox";
 
 //-------------------MusicPlayer----------------//
 export { IconPlay } from "./IconPlay";

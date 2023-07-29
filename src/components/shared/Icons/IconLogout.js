@@ -4,7 +4,7 @@ import { defaultTheme } from "../../../theme/default";
 
 export const IconLogout = styled(LogoutSvg)`
     width:24px;
-    width:24px;
+    height:24px;
     path {
         fill:${defaultTheme.colorIconDefault};
     }
@@ -13,7 +13,7 @@ export const IconLogout = styled(LogoutSvg)`
     }
     &:hover path{ 
         fill:${defaultTheme.colorIconHover};
-        
+
     }
     &:active path{ 
         fill:${defaultTheme.colorIconActive};

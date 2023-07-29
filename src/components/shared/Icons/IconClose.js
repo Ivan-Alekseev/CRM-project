@@ -3,7 +3,7 @@ import { ReactComponent as CloseSvg } from "./../../../assets/iсons/music-playe
 
 export const IconClose = styled(CloseSvg)`
     width:24px;
-    width:24px;
+    height:24px;
     path {
         fill:currentColor;
     }
