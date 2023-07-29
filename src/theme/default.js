@@ -1,3 +1,9 @@
+let colors = {
+    default:"#ADBFDF",
+    hover:"#002CFB",
+    active:"#002B8C",
+}
+
 export const defaultTheme = {
     colorBlackForText: "#122945",
 
@@ -5,21 +11,21 @@ export const defaultTheme = {
     colorWhite: "#FFFFFF",
 
     
-    colorButtonDefault:"#ADBFDF",
-    colorButtonHover:"#002CFB",
+    colorButtonDefault:colors.default,
+    colorButtonHover:colors.hover,
     colorButtonNoActive:"#274BC8",
     colorButtonActive:"#002B8C",
 
 
-    colorCheckboxOffDefault:"#ADBFDF",
-    colorCheckboxOffHover:"#002CFB",
+    colorCheckboxOffDefault:colors.default,
+    colorCheckboxOffHover:colors.hover,
 
     colorCheckboxOnDefault:"#002CFB",
     colorCheckboxOnHover:"#0024CB",
 
 
     colorTextDefaul:"#5E7793",
-    colorTextHover:"#002CFB",
+    colorTextHover:colors.hover,
 
     colorDafult:"#274BC8",
 
@@ -29,6 +35,10 @@ export const defaultTheme = {
 
     colorMusicPlayBackGround:'#EAF0FA',
     colorMusicPlayTimeLine:'#EAF0FA',
+
+    colorIconDefault:colors.default,
+    colorIconHover:colors.hover,
+    colorIconActive:colors.active,
 
 
 

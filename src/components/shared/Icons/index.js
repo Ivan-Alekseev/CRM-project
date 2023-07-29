@@ -39,3 +39,4 @@ export { IconCursorPointer } from "./IconCursorPointer";
 export { IconHelp } from "./IconHelp";
 export { IconСhevronCircleUp } from "./IconСhevronCircle";
 export { IconСhevronCircleDown } from "./IconСhevronCircle";
+export { IconLogout } from "./IconLogout";

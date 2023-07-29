@@ -1,4 +1,4 @@
-import MusicPlayer from "../../feature/MusicPlayer/MusicPlayer";
+import { IconCalls, IconClose, IconCross, IconLogout } from "../../shared/Icons";
 import { ListCalls } from "./../../feature/index";
 import { StyledCalls } from "./styles";
 
@@ -6,7 +6,7 @@ function Calls() {
   return (
       <StyledCalls>
         {/* <ListCalls /> */}
-        <MusicPlayer />
+        <IconLogout />
       </StyledCalls>
   );
 }
