@@ -8,16 +8,13 @@ const MusicPlayerDate = {
 function MusicPlayer () {
   return (
       <StyledMusicPlayer>
-        {/* {MusicPlayerDate.time}
+        {MusicPlayerDate.time}
         
         <StyledIconPlay />
         <StyledTimeLine />
 
         <StyledIconDownload />
-        <StyledIconClose /> */}
-        
-        
-        <StyledIconHelp />
+        <StyledIconClose />
       </StyledMusicPlayer>
   );
 }

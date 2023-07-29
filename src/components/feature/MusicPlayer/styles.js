@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { IconClose, IconPlay, IconDownload, IconСhevronCircleDown } from '../../shared/Icons';
+import { IconClose, IconPlay, IconDownload } from '../../shared/Icons';
 import { defaultTheme } from "../../../theme/default";
 
 export const StyledMusicPlayer= styled.div`
@@ -45,9 +45,17 @@ export const StyledTimeLine = styled.div`
   width: 164px;
   height:4px;
   border-radius: 50px;
-`;
+  
+  position: relative;
+  &:after {
+    content:" ";
+    position: absolute;
+    top:0px;
+    left:0px;
 
-
-export const StyledIconHelp = styled(IconСhevronCircleDown)`
- 
+    width: ${(164/100*25)}px;
+    height:4px;
+    border-radius: 50px;
+    background-color:#002CFB;
+  }
 `;
