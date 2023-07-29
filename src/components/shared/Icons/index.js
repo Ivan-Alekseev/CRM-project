@@ -25,6 +25,7 @@ export {  ReactComponent as IconLogin } from "./../../../assets/icons/login.svg"
 export {  ReactComponent as IconCalendar } from "./../../../assets/icons/icon-calendar.svg";
 export { IconSearch } from "./IconSearch";
 export { IconKeyboardArrowUp, IconKeyboardArrowDown  } from "./IconArrow";
+export { ReactComponent as IconAlert } from "./../../../assets/icons/alert.svg";
 
 export { IconCheckbox } from "./IconCheckbox";
 export { IconCheckboxChecked } from "./IconCheckbox";
