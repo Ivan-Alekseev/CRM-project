@@ -1,14 +1,33 @@
-import { StyledCheckBox, StyledCheckBoxs } from "./styles";
-import { IconCheckbox } from "../../Icons";
+import { useState } from "react";
+import { StyledCheckBox } from "./styles";
+import { IconCheckbox, IconCheckboxChecked } from "../../Icons";
 
-function CheckBox() {
-  return (
+
+function CheckBox({
+  id,
+  onClick,
+  checked
+}) {
+  
+  const [checkBox, setChecked] = useState(<IconCheckbox />);
+
+   return (
     <StyledCheckBox >
-      <label class="mylabel">
-        <input type="checkbox" name="checkbox" />
-        <IconCheckbox />
+      
+      <label>
+        <input 
+          type="checkbox"
+          name="checkbox"
+          id={id}
+          onClick={ (e)=> {onClick(e.target)}}
+        />
       </label>
-    </StyledCheckBox>
+      
+      {
+        checked ?
+        <IconCheckboxChecked /> : <IconCheckbox />
+       }
+     </StyledCheckBox>
   );
 }
 

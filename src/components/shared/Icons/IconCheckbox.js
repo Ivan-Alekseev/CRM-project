@@ -4,13 +4,15 @@ import { ReactComponent as CheckboxCheckedSvg } from "./../../../assets/icons/ch
 import { defaultTheme } from "../../../theme/default";
 
 export const IconCheckbox = styled(CheckboxSvg)`
+    padding:4px;
     width:16px;
     height:16px;
+    
+    cursor: pointer;
     path {
-        cursor: pointer;
         fill:${defaultTheme.colorCheckboxOffDefault};
     }
-    &:hover path{
+    &:hover path {
         fill:${defaultTheme.colorCheckboxOffHover};
     }
     &:active path{ 
@@ -19,8 +21,12 @@ export const IconCheckbox = styled(CheckboxSvg)`
 `;
 
 export const IconCheckboxChecked = styled(CheckboxCheckedSvg)`
+    padding:4px;
+    width:16px;
+    height:16px;
+    
+    cursor: pointer;
     path {
-        cursor: pointer;
         fill:${defaultTheme.colorCheckboxOnDefault};
     }
     &:hover path{

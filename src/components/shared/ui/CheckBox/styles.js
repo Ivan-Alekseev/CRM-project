@@ -1,20 +1,32 @@
 import styled from "styled-components";
+import { defaultTheme } from "../../../../theme/default";
+import { IconCheckbox } from "../../Icons";
 
 export const StyledCheckBox = styled.div`
-   /* opacity: 0; */
-   & label {    
     display: flex;
-    gap: 5px;
     align-items: center;
-    margin: 2px;
-    color:red;
-    
-    &:hover {
-      color:red;
-    }
-  }
+    justify-content: center;
+    position:relative;
 
-   & input {   
-     display:none;
-   }
+input {
+    cursor:pointer;
+    width:16px;
+    height:16px;
+    opacity:0;
+    top:1px;
+    left:2px;
+    position:absolute;
+    
+}
+& input:hover {
+    opacity:0;
+    border:1px solid red;
+}
+input:hover {
+    & + ${IconCheckbox}{
+        opacity:1;
+        border:1px solid red;
+    }
+}
+
 `;
