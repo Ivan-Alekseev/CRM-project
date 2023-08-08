@@ -1,18 +1,13 @@
-import { StyledContent } from "./styles";
+import { IconArrowDropDown } from "../../shared/Icons";
+import { Content, Text } from "./styles";
 
-function Content() {
+function Filter() {
   return (
-      <StyledContent>dfgd
-        {/* <Balance />
-        <DatePicker />
-        <Search />
-        <Filter /> */}
-        {/* <Calls /> */}
-
-
-        
-      </StyledContent>
+    <Content>
+      <Text>Дата и время операции</Text>
+      <IconArrowDropDown />
+    </Content>
   );
 }
 
-export default Content;
+export default Filter;

@@ -25,10 +25,15 @@ export const defaultTheme = {
     colorCheckboxOnHover:colors.active,
 
 
-    colorTextDefaul:"#5E7793",
+    colorTextDefault:"#5E7793",
     colorTextHover:colors.hover,
 
-    colorDafult:"#274BC8",
+    colorInputFocus:colors.hover,
+    colorInputWithValue:'#EAF0FA',
+    colorInputText:"#122945",
+
+
+    colorDefult:"#274BC8",
 
     colorCallListBackGround:'#F1F4F9',
     
@@ -40,6 +45,8 @@ export const defaultTheme = {
     colorIconDefault:colors.default,
     colorIconHover:colors.hover,
     colorIconActive:colors.active,
+
+    colorFilterDefault:"#899CB1",
 
 
 

@@ -1,8 +1,17 @@
 import styled from "styled-components";
+import { defaultTheme } from "../../../theme/default";
 
-export const StyledContent = styled.div`
-  width: 1440px;
-  height:2120px;
-  margin:0 auto;
-  background-color:red;
+export const Content = styled.div`
+  display:flex;
+  align-items:center;
+
+  cursor:pointer;
+`;
+
+export const Text = styled.span`
+  color: ${defaultTheme.colorFilterDefault};
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
 `;
