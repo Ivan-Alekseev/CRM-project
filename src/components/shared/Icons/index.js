@@ -22,9 +22,9 @@ export { IconInfoSmall } from "./IconInfo";
 export { IconInfoMedium } from "./IconInfo";
 export { IconWeb } from "./IconWeb";
 
-export {  ReactComponent as IconCalendar } from "./../../../assets/icons/icon-calendar.svg";
+export { IconCalendar } from "./IconCalendar";
 export { IconSearch } from "./IconSearch";
-export { IconKeyboardArrowUp, IconKeyboardArrowDown  } from "./IconArrow";
+export { IconKeyboardArrowUp, IconKeyboardArrowDown, IconKeyboardArrowLeft, IconKeyboardArrowRight } from "./IconKeyboardArrow";
 export { IconArrowDropUp, IconArrowDropDown  } from "./IconArrowDrop";
 export { ReactComponent as IconAlert } from "./../../../assets/icons/alert.svg";
 
@@ -41,4 +41,5 @@ export { IconCursorPointer } from "./IconCursorPointer";
 export { IconHelp } from "./IconHelp";
 export { IconChevronCircleUp } from "./IconChevronCircle";
 export { IconChevronCircleDown } from "./IconChevronCircle";
+
 export { IconLogout } from "./IconLogout";
