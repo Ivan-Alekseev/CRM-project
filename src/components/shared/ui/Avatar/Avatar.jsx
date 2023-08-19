@@ -1,13 +1,11 @@
-import { StyledAvatar, StyledUnknownAvatar } from "./styles";
+import { StyledAvatar } from "./styles";
+import { IconUnknownAvatar } from "./../../Icons/index";
 
-function Avatar( { personAvatar } ) {
+function Avatar({ src, alt }) {
   return (
-    <>
-      { personAvatar ?
-        <StyledAvatar src={personAvatar}/>
-        : <StyledUnknownAvatar />
-      }
-    </>    
+    <StyledAvatar>
+      {src ? <img src={src} alt={alt} /> : <IconUnknownAvatar />}
+    </StyledAvatar>
   );
 }
 
