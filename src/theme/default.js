@@ -9,7 +9,6 @@ export const defaultTheme = {
 
 
     colorWhite: "#FFFFFF",
-
     
     colorButtonDefault:colors.default,
     colorButtonHover:colors.hover,
@@ -32,6 +31,8 @@ export const defaultTheme = {
     colorInputWithValue:'#EAF0FA',
     colorInputText:"#122945",
 
+    colorListItemTextDefault:"#005FF8",
+    colorListItemHover:"#DEE4FF",
 
     colorDefult:"#274BC8",
 
