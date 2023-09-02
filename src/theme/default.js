@@ -10,7 +10,8 @@ export const defaultTheme = {
     colorRed:'#EA1A4F',
 
     colorWhite: "#FFFFFF",
-    
+    colorGray:"rgba(255, 255, 255, 0.6)",
+
     colorButtonDefault:colors.default,
     colorButtonHover:colors.hover,
     colorButtonNoActive:"#274BC8",
@@ -39,7 +40,7 @@ export const defaultTheme = {
 
     colorCallListBackGround:'#F1F4F9',
     
-    colorSideBarBackGround:'#091336',
+    colorSideBarBackground:'#091336',
 
     colorMusicPlayBackGround:'#EAF0FA',
     colorMusicPlayTimeLine:'#EAF0FA',

@@ -12,10 +12,19 @@ export const StyledNavButtons = styled.div`
     display: flex;
     flex-direction: column;
     align-items:center;
+
+& button {
+    margin-bottom: 32px;  
+}
+
+
+& > :last-child {
+    margin-bottom: 0px;  
+}
 `;
 
 export const ButtonSiderBar = styled(Button)`
-    margin-bottom: 32px;
+    
 `;
 
 
