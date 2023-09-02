@@ -6,7 +6,8 @@ let colors = {
 
 export const defaultTheme = {
     colorBlackForText: "#122945",
-
+    colorGreen:'#00A775',
+    colorRed:'#EA1A4F',
 
     colorWhite: "#FFFFFF",
     
