@@ -1,19 +1,14 @@
-import { StyledBalance, StyledBalanceValue, StyledIconCross } from "./styles";
+import {StyledBalance, Value, IconCrossBlue, Text, Wrapper} from './styles';
 
-
-const balanceDate = {
-  balance:'272',
-}
-
-function Balance() {
+function Balance({balance}) {
   return (
-      <StyledBalance>
-        Баланс:
-        <StyledBalanceValue>
-           {balanceDate.balance} ₽
-        </StyledBalanceValue>
-         <StyledIconCross />
-      </StyledBalance>
+    <StyledBalance>
+      <Wrapper>
+        <Text>Баланс:</Text>
+        <Value>{balance} ₽</Value>
+      </Wrapper>
+      <IconCrossBlue />
+    </StyledBalance>
   );
 }
 

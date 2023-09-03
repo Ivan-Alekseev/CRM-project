@@ -51,6 +51,8 @@ export const defaultTheme = {
 
     colorFilterDefault:"#899CB1",
 
+    colorBalanceValue:"#0024CB",
+
 
 
     indent: "20px",
