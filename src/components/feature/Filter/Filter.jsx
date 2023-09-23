@@ -1,11 +1,14 @@
-import { IconArrowDropDown } from "../../shared/Icons";
-import { Content, Text } from "./styles";
+import Select from "../Select/Select";
+import { Content} from "./styles";
+import { allCalls } from '../../../mocks/selects';
 
 function Filter() {
   return (
     <Content>
-      <Text>Дата и время операции</Text>
-      <IconArrowDropDown />
+      <Select label={allCalls.label} options={allCalls.options}/>
+      <Select label={allCalls.label} options={allCalls.options}/>
+      <Select label={allCalls.label} options={allCalls.options}/>
+      <Select label={allCalls.label} options={allCalls.options}/>
     </Content>
   );
 }

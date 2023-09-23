@@ -1,17 +1,13 @@
-import styled from "styled-components";
-import { defaultTheme } from "../../../theme/default";
+import styled from 'styled-components';
 
 export const Content = styled.div`
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
 
-  cursor:pointer;
-`;
-
-export const Text = styled.span`
-  color: ${defaultTheme.colorFilterDefault};
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100%;
+  & > div {
+    margin-right: 32px;
+  }
+  & > :last-child {
+    margin-right: 0px;
+  }
 `;
