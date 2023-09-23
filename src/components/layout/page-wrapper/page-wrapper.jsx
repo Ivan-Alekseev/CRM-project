@@ -1,17 +1,17 @@
 import SideBar from "../../feature/SideBar/SideBar";
 import Header from "../../feature/Header/Header";
 import Main from "../Main/Main";
-import { StyledPageWrapper, StyledSideBarHeaderWrapper } from "./styles";
+import { StyledPageWrapper, StyledContentWrapper } from "./styles";
 import Calls from "../../pages/Calls/Calls";
 
 function PageWrapper() {
   return (
     <StyledPageWrapper>
-      {/* <SideBar /> */}
-      <StyledSideBarHeaderWrapper>
-          {/* <Header /> */}
+      <SideBar />
+      <StyledContentWrapper>
+          <Header />
           <Main page={<Calls/>}/>
-        </StyledSideBarHeaderWrapper>
+        </StyledContentWrapper>
     </StyledPageWrapper>
   );
 }
