@@ -1,4 +1,4 @@
-export { ReactComponent as Logo } from "./../../../assets/icons/sidebar/logo.svg";
+export { IconLogo } from "./IconLogo";
 export { ReactComponent as IconChartTimelineVariant } from "./../../../assets/icons/sidebar/chart-timeline-variant.svg";
 export { ReactComponent as IconOrders } from "./../../../assets/icons/sidebar/orders.svg";
 export { ReactComponent as IconMails } from "./../../../assets/icons/sidebar/mail_outline.svg";
