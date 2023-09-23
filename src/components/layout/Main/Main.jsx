@@ -1,5 +1,6 @@
 import { StyledMain } from "./styles";
 
+
 function Main( { page } ) {
   return (
       <StyledMain>
