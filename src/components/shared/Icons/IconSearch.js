@@ -4,10 +4,9 @@ import { ReactComponent as SearchSvg } from "./../../../assets/icons/search.svg"
 export const IconSearch = styled(SearchSvg)`
     width:16px;
     height:16px;
-    fill:red;
     cursor:pointer;
 
-    & > path:hover {
+    & path:hover {
         cursor:pointer;
         fill:currentColor;
     }
