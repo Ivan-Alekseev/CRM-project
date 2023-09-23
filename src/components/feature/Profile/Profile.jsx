@@ -1,6 +1,10 @@
 import CartUser from "./CartUser/CartUser";
 import Department from "./Department/Department";
-import { StyledProfile } from "./styles";
+import { StyledProfile, UserProfile } from "./styles";
+import img from "./../../../assets/icons/avatars/avatar-profile.png";
+import User from "./User/User";
+import { useState } from "react";
+
 
 const data = [
   {
@@ -10,7 +14,7 @@ const data = [
       {
         idEmployee: "1",
         propertiesEmployee: {
-          personAvatar: "./../../../../public/avatar-profile.png",
+          personAvatar: img,
           link: "",
           firstName: "Мирон",
           lastName: "Батонов",
@@ -19,7 +23,7 @@ const data = [
       {
         idEmployee: "2",
         propertiesEmployee: {
-          personAvatar: "",
+          personAvatar: "public/avatar-profile.png",
           link: "",
           firstName: "Алексей",
           lastName: "Ильин",
@@ -54,9 +58,18 @@ const data = [
 ];
 
 function Profile() {
+
+  const [visibility, setVisibility] = useState("false");
+
+  const changeVisibility = () => {
+    setVisibility(!visibility);
+  };
+
   return (
-    <StyledProfile>
-      <CartUser />
+    <UserProfile>
+    <User changeVisibility={changeVisibility} visibility={visibility}/>
+    <StyledProfile visibility={visibility}>
+      <CartUser  />
       {data &&
         data.map((department) => {
           return (
@@ -67,6 +80,7 @@ function Profile() {
           );
         })}
     </StyledProfile>
+    </UserProfile>
   );
 }
 
