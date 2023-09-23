@@ -16,6 +16,5 @@ export const StyledGradeCircle = styled.div`
   width:8px;
   height:8px;
   border-radius: 50%;
-
   background-color: ${(props) => grades[props.type].backgroundColor};
 `;
