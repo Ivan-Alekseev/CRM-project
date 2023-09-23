@@ -1,11 +1,23 @@
-import { ListCalls } from "./../../feature/index";
-import { StyledCalls } from "./styles";
+import Filter from "../../feature/Filter/Filter";
+import SearchOnCalls from "../../feature/SearchOnCalls/SearchOnCalls";
+import { Balance, DatePicker, ListCalls } from "./../../feature/index";
+import { Group, GroupSearchAndFilter, StyledCalls } from "./styles";
 
-function Calls() {
+function Calls({
+  balance=200,
+}) {
   return (
       <StyledCalls>
-        <ListCalls />
         
+        <Group>
+          <Balance balance={balance}/>
+          <DatePicker />
+        </Group>        
+        <GroupSearchAndFilter>
+          <SearchOnCalls/>
+          <Filter/>
+        </GroupSearchAndFilter>
+        <ListCalls />
       </StyledCalls>
   );
 }
