@@ -1,11 +1,12 @@
-import styled from "styled-components";
-import { defaultTheme } from "../../../theme/default";
-import { IconClose, IconSearch } from "../../shared/Icons";
+import styled from 'styled-components';
+import {defaultTheme} from '../../../theme/default';
+import {IconClose, IconSearch} from '../../shared/Icons';
 
-export const StyledContent = styled.div`
+export const Content = styled.div`
   width: 482px;
-  height:40px;
-  
+  padding-top: 14px;
+  padding-bottom: 14px;
+  line-height: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,13 +15,13 @@ export const StyledContent = styled.div`
 
   & ${IconSearch} {
     position: absolute;
-    top:auto;
-    left:0px;
+    top: auto;
+    left: 0px;
   }
 
   &:hover ${IconSearch} {
-    path{
-      fill:${defaultTheme.colorIconHover};
+    path {
+      fill: ${defaultTheme.colorIconHover};
     }
   }
 
@@ -29,27 +30,27 @@ export const StyledContent = styled.div`
     border: 1px solid ${defaultTheme.colorInputFocus};
     background: ${defaultTheme.colorWhite};
     padding: 12px 12px 12px 18px;
-    box-sizing:border-box;
+    box-sizing: border-box;
   }
 
-  &:has(input:focus) ${IconSearch}{
-    top:auto;
-    left:18px;
-    path{
-      fill:${defaultTheme.colorIconDefault};
+  &:has(input:focus) ${IconSearch} {
+    top: auto;
+    left: 18px;
+    path {
+      fill: ${defaultTheme.colorIconDefault};
     }
   }
 
-  & ${IconClose}{
-    display:none;
+  & ${IconClose} {
+    display: none;
   }
-  
-  &:has(input:focus) ${IconClose}{
-    display:inline;
+
+  &:has(input:focus) ${IconClose} {
+    display: inline;
   }
 
   &:has(input:active) {
-    border-color:${defaultTheme.colorInputActive};
+    border-color: ${defaultTheme.colorInputActive};
   }
 
   &:has(input:not(:placeholder-shown)) {
@@ -57,32 +58,29 @@ export const StyledContent = styled.div`
     background: ${defaultTheme.colorWhite};
     border: 1px solid ${defaultTheme.colorInputWithValue};
     padding: 12px 12px 12px 18px;
-    box-sizing:border-box;
+    box-sizing: border-box;
   }
-   
-  &:has(input:not(:placeholder-shown)) ${IconClose}{
-    display:inline;
+
+  &:has(input:not(:placeholder-shown)) ${IconClose} {
+    display: inline;
   }
-  &:has(input:not(:placeholder-shown)) ${IconSearch}{
-    top:auto;
-    left:18px;
-    path{
-      fill:${defaultTheme.colorIconDefault};
+  &:has(input:not(:placeholder-shown)) ${IconSearch} {
+    top: auto;
+    left: 18px;
+    path {
+      fill: ${defaultTheme.colorIconDefault};
     }
   }
-
-
 `;
 
 export const Input = styled.input`
-  width: 482px;
-  height:40px;
+  
   padding-left: 28px;
-  line-height: 140%;
-  cursor:pointer;
+  line-height:20px;
+  cursor: pointer;
   border: none;
   background: none;
-  color:${defaultTheme.colorBlackForText};
+  color: ${defaultTheme.colorBlackForText};
 
   &::placeholder {
     color: ${defaultTheme.colorTextDefault};
@@ -90,7 +88,7 @@ export const Input = styled.input`
     font-style: normal;
     font-weight: 40px;
   }
-  
+
   &:focus {
     outline: none;
   }

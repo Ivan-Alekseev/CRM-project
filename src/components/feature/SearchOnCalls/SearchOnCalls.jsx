@@ -1,9 +1,9 @@
 import { IconClose, IconSearch } from "../../shared/Icons";
-import { Input, StyledContent } from "./styles";
+import { Input, Content } from "./styles";
 
 function SearchOnCalls() {
   return (
-      <StyledContent>
+      <Content>
         <IconSearch />
         <Input 
           type="tel"
@@ -12,7 +12,7 @@ function SearchOnCalls() {
           pattern=""
         />
         <IconClose />
-      </StyledContent>
+      </Content>
   );
 }
 
