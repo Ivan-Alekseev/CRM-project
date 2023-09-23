@@ -28,7 +28,10 @@ export const Label = styled.div`
   align-items: center;
   padding-top: 6px;
   padding-left: 21px;
+
   padding-bottom: 6px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
 `;
 
 export const Option = styled(Li)`
@@ -40,19 +43,24 @@ export const Option = styled(Li)`
   cursor: pointer;
   padding-top: 6px;
   padding-left: 21px;
+  padding-right: 21px;
   padding-bottom: 6px;
   display: flex;
   align-items: center;
 `;
 
-export const StyledSelect = styled(Ul)`
+export const StyledList = styled(Ul)`
   color: ${defaultTheme.colorFilterDefault};
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 148%;
-  width: 202px;
+
   cursor: pointer;
+
+  & > ${Option} {
+    white-space: nowrap;
+  }
   & > ${Option}:hover {
     color: ${defaultTheme.colorBlackForText};
     background-color: rgb(0, 44, 251, 0.13);
@@ -63,12 +71,11 @@ export const StyledSelect = styled(Ul)`
   }
 `;
 
-
-
 export const WrapperSelect = styled.div`
+  z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content:start;
+  justify-content: start;
   position: absolute;
   top: 28px;
   right: 0px;
@@ -88,7 +95,6 @@ export const WrapperSelect = styled.div`
   background-color: ${defaultTheme.colorWhite};
   border-radius: 4px;
   border: 1px solid #eaf0fa;
-
 `;
 
 export const Wrapper = styled.div`

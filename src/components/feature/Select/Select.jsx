@@ -1,11 +1,8 @@
 import {useState} from 'react';
-import {Label, Option, StyledIconActive, StyledSelect,  Text,  Wrapper,  WrapperSelect,} from './styles';
+import {  Label,  Option,  StyledIconActive,  StyledList,  Text,  Wrapper,  WrapperSelect,} from './styles';
 import {IconKeyboardArrowDown, IconKeyboardArrowUp} from '../../shared/Icons';
 
-function Select({
-  label,
-  options
-}) {
+function Select({label, options}) {
   const [visibility, setVisibility] = useState('false');
   const [selectedLabel, setLabel] = useState(label);
   const [optionsObj, setSelectedOption] = useState(options);
@@ -40,7 +37,7 @@ function Select({
       </div>
       <WrapperSelect visibility={visibility}>
         <Label>{selectedLabel}</Label>
-        <StyledSelect>
+        <StyledList>
           {optionsObj
             ? optionsObj.map((option) => (
                 <>
@@ -58,7 +55,7 @@ function Select({
                 </>
               ))
             : false}
-        </StyledSelect>
+        </StyledList>
       </WrapperSelect>
     </Wrapper>
   );
