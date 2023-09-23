@@ -7,7 +7,9 @@ export const GlobalStyle = createGlobalStyle`
 
   body,
   html {
+    width:100%;
     margin: 0;
+    padding:0;
   }
 
   body {
@@ -15,8 +17,6 @@ export const GlobalStyle = createGlobalStyle`
     min-height: 100%;
     font-family: ${(props) => props.theme.fontFamily};
     font-size: ${(props) => props.theme.fontSizeDefault};
-    line-height: 27px;
-    font-weight: 400;
     color: ${(props) => props.theme.colorBlackForText};
   }
 `;

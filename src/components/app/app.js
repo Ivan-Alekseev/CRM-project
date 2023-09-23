@@ -3,10 +3,10 @@ import { GlobalStyle } from './styles.js';
 
 function App() {
   return (
-      <div className="App">
-        <GlobalStyle />
-        <PageWrapper />
-      </div>
+    <div className="App">
+      <GlobalStyle />
+      <PageWrapper />
+    </div>
   );
 }
 
