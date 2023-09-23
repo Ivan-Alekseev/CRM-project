@@ -5,7 +5,6 @@ import {defaultTheme} from '../../../theme/default';
 export const StyledSideBar = styled(Section)`
   display: flex;
   flex-direction: column;
-  width: 240px;
   min-height: 960px; //временно
   background: ${defaultTheme.colorSideBarBackground};
 `;
