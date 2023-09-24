@@ -47,6 +47,7 @@ export const Content = styled.div`
 
   &:has(input:focus) ${IconClose} {
     display: inline;
+    
   }
 
   &:has(input:active) {
@@ -63,6 +64,7 @@ export const Content = styled.div`
 
   &:has(input:not(:placeholder-shown)) ${IconClose} {
     display: inline;
+    
   }
   &:has(input:not(:placeholder-shown)) ${IconSearch} {
     top: auto;
@@ -74,7 +76,7 @@ export const Content = styled.div`
 `;
 
 export const Input = styled.input`
-  
+  width:100%;
   padding-left: 28px;
   line-height:20px;
   cursor: pointer;
@@ -87,6 +89,7 @@ export const Input = styled.input`
     font-size: 14px;
     font-style: normal;
     font-weight: 40px;
+    
   }
 
   &:focus {
