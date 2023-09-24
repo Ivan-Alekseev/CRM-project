@@ -1,11 +1,16 @@
-import {useState} from 'react';
+import {useRef, useState} from 'react';
 import {  Label,  Option,  StyledIconActive,  StyledList,  Text,  Wrapper,  WrapperSelect,} from './styles';
 import {IconKeyboardArrowDown, IconKeyboardArrowUp} from '../../shared/Icons';
+import { useClickOutside } from '../../../hooks/useClickOutside';
 
 function Select({label, options}) {
   const [visibility, setVisibility] = useState('false');
   const [selectedLabel, setLabel] = useState(label);
   const [optionsObj, setSelectedOption] = useState(options);
+  const sectionRef = useRef(null);
+  useClickOutside(sectionRef, () =>{
+    setVisibility('false');
+  });
 
   const changeVisibility = () => {
     setVisibility(!visibility);
@@ -35,7 +40,7 @@ function Select({label, options}) {
         <Text>{selectedLabel}</Text>
         {visibility ? <IconKeyboardArrowDown /> : <IconKeyboardArrowUp />}
       </div>
-      <WrapperSelect visibility={visibility}>
+      <WrapperSelect visibility={visibility} ref={sectionRef}>
         <Label>{selectedLabel}</Label>
         <StyledList>
           {optionsObj
