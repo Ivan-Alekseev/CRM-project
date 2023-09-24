@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CRM-project/static/css/main.e6c13ad2.css",
-    "main.js": "/CRM-project/static/js/main.2231e190.js",
+    "main.js": "/CRM-project/static/js/main.74355696.js",
     "static/js/787.28cb0dcd.chunk.js": "/CRM-project/static/js/787.28cb0dcd.chunk.js",
     "static/media/SFProDisplay-Bold.svg": "/CRM-project/static/media/SFProDisplay-Bold.5fb3832dd4905e89641b4a8dc58d819e.svg",
     "static/media/SFProDisplay-Semibold.svg": "/CRM-project/static/media/SFProDisplay-Semibold.763e4ca0320b8fe488f01f23b1a38cb1.svg",
@@ -128,11 +128,11 @@
     "static/media/incoming-call.svg": "/CRM-project/static/media/incoming-call.bee5ab1fdd37104c4ed1da83c671c5bf.svg",
     "static/media/button-download.svg": "/CRM-project/static/media/button-download.4c174d2be82117a35789c8fa745866fd.svg",
     "main.e6c13ad2.css.map": "/CRM-project/static/css/main.e6c13ad2.css.map",
-    "main.2231e190.js.map": "/CRM-project/static/js/main.2231e190.js.map",
+    "main.74355696.js.map": "/CRM-project/static/js/main.74355696.js.map",
     "787.28cb0dcd.chunk.js.map": "/CRM-project/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.2231e190.js"
+    "static/js/main.74355696.js"
   ]
 }
