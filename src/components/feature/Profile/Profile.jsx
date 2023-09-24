@@ -3,7 +3,8 @@ import Department from "./Department/Department";
 import { StyledProfile, UserProfile } from "./styles";
 import img from "./../../../assets/icons/avatars/avatar-profile.png";
 import User from "./User/User";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { useClickOutside } from "../../../hooks/useClickOutside";
 
 
 const data = [
@@ -64,11 +65,15 @@ function Profile() {
   const changeVisibility = () => {
     setVisibility(!visibility);
   };
+  const profileRef = useRef(null);
+  useClickOutside(profileRef, () =>{
+    setVisibility('false');
+  });
 
   return (
     <UserProfile>
     <User changeVisibility={changeVisibility} visibility={visibility}/>
-    <StyledProfile visibility={visibility}>
+    <StyledProfile visibility={visibility} ref={profileRef}>
       <CartUser  />
       {data &&
         data.map((department) => {
